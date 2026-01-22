@@ -1,0 +1,961 @@
+[Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+[Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+worker1:1111382:1111382 [0] NCCL INFO cudaDriverVersion 12040
+worker1:1111382:1111382 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+worker1:1111382:1111382 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+worker1:1111382:1111382 [0] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [RO]; OOB ens10f1np1:192.168.1.1<0>
+worker1:1111382:1111382 [0] NCCL INFO Initialized NET plugin IB
+worker1:1111382:1111382 [0] NCCL INFO Assigned NET plugin IB to comm
+worker1:1111382:1111382 [0] NCCL INFO Using network IB
+worker1:1111382:1111382 [0] NCCL INFO ncclCommInitRank comm 0xb0eae50 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 31000 commId 0x2e65bb01f14ca28f - Init START
+worker1:1111382:1111382 [0] NCCL INFO RAS client listening socket at ::1<28028>
+worker1:1111382:1111382 [0] NCCL INFO Setting affinity for GPU 0 to 0-19,40-59
+worker1:1111382:1111382 [0] NCCL INFO comm 0xb0eae50 rank 0 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+worker1:1111382:1111382 [0] NCCL INFO Channel 00/02 : 0 1
+worker1:1111382:1111382 [0] NCCL INFO Channel 01/02 : 0 1
+worker1:1111382:1111382 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] -1/-1/-1->0->1
+worker1:1111382:1111382 [0] NCCL INFO P2P Chunksize set to 131072
+worker1:1111382:1111382 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+worker1:1111382:1111382 [0] NCCL INFO Check P2P Type isAllDirectP2p 0 directMode 0
+worker1:1111382:1111964 [0] NCCL INFO [Proxy Service] Device 0 CPU core 41
+worker1:1111382:1111965 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 42
+worker1:1111382:1111966 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 43
+worker1:1111382:1111382 [0] NCCL INFO Channel 00/0 : 1[0] -> 0[0] [receive] via NET/IB/0
+worker1:1111382:1111382 [0] NCCL INFO Channel 01/0 : 1[0] -> 0[0] [receive] via NET/IB/0
+worker1:1111382:1111382 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/IB/0
+worker1:1111382:1111382 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[0] [send] via NET/IB/0
+worker1:1111382:1111382 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+worker1:1111382:1111382 [0] NCCL INFO Connected all trees
+worker1:1111382:1111382 [0] NCCL INFO Connected binomial trees
+worker1:1111382:1111382 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+worker1:1111382:1111382 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+worker1:1111382:1111382 [0] NCCL INFO CC Off, workFifoBytes 1048576
+worker1:1111382:1111382 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+worker1:1111382:1111382 [0] NCCL INFO ncclCommInitRank comm 0xb0eae50 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 31000 commId 0x2e65bb01f14ca28f - Init COMPLETE
+worker1:1111382:1111382 [0] NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 2 total 0.26 (kernels 0.12, alloc 0.03, bootstrap 0.02, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.07, rest 0.00)
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 0 sendbuff 0x7f01fea00000 recvbuff 0x7f01fea00000 count 1 datatype 7 op 0 root 0 comm 0xb0eae50 [nranks=2] stream 0x11cec6b0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+[2025-12-12 08:16:03] INFO:     127.0.0.1:41048 - "GET /get_model_info HTTP/1.1" 200 OK
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+worker1:1111382:1112104 [0] NCCL INFO Assigned NET plugin IB to comm
+worker1:1111382:1112104 [0] NCCL INFO Using network IB
+worker1:1111382:1112104 [0] NCCL INFO ncclCommInitRankConfig comm 0x37642a30 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 31000 commId 0x8112e4d858bf9274 - Init START
+worker1:1111382:1112104 [0] NCCL INFO Setting affinity for GPU 0 to 0-19,40-59
+worker1:1111382:1112104 [0] NCCL INFO comm 0x37642a30 rank 0 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+worker1:1111382:1112104 [0] NCCL INFO Channel 00/02 : 0 1
+worker1:1111382:1112104 [0] NCCL INFO Channel 01/02 : 0 1
+worker1:1111382:1112104 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] -1/-1/-1->0->1
+worker1:1111382:1112104 [0] NCCL INFO P2P Chunksize set to 131072
+worker1:1111382:1112104 [0] NCCL INFO Check P2P Type isAllDirectP2p 0 directMode 0
+worker1:1111382:1112105 [0] NCCL INFO [Proxy Service] Device 0 CPU core 41
+worker1:1111382:1112106 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 2
+worker1:1111382:1112107 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 3
+worker1:1111382:1112104 [0] NCCL INFO Channel 00/0 : 1[0] -> 0[0] [receive] via NET/IB/0
+worker1:1111382:1112104 [0] NCCL INFO Channel 01/0 : 1[0] -> 0[0] [receive] via NET/IB/0
+worker1:1111382:1112104 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/IB/0
+worker1:1111382:1112104 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[0] [send] via NET/IB/0
+worker1:1111382:1112104 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+worker1:1111382:1112104 [0] NCCL INFO Connected all trees
+worker1:1111382:1112104 [0] NCCL INFO Connected binomial trees
+worker1:1111382:1112104 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+worker1:1111382:1112104 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+worker1:1111382:1112104 [0] NCCL INFO CC Off, workFifoBytes 1048576
+worker1:1111382:1112104 [0] NCCL INFO ncclCommInitRankConfig comm 0x37642a30 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 31000 commId 0x8112e4d858bf9274 - Init COMPLETE
+worker1:1111382:1112104 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 0 nranks 2 total 0.09 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.08, rest 0.00)
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 0 sendbuff 0x7efb39c01000 recvbuff 0x7efb39c01000 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1 sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2 sendbuff 0x7efb39c1ba00 recvbuff 0x7efb39c1ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3 sendbuff 0x7efb39c08200 recvbuff 0x7efb39c08200 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4 sendbuff 0x7efb39c19000 recvbuff 0x7efb39c19000 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5 sendbuff 0x7efb39c08200 recvbuff 0x7efb39c08200 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6 sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7 sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x3distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+7642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 12 sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13 sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 15 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16 sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 17 sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 18 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1c sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1d sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1e sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1f sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 roodistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+t 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 20 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 21 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 22 sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 23 sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 24 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 25 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 26 sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 27 sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 28 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 29 sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2a sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2b sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2c sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2d sendbuff 0x7efb39c0ba00 recvbuff 0x7efb39c0ba00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2e sendbuff 0x7efb39c03a00 recvbuff 0x7efb39c03a00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 2f sendbuff 0x7efb39c0ac00 recvbuff 0x7efb39c0ac00 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 30 sendbuff 0x7efb39c06400 recvbuff 0x7efb39c06400 count 5376 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 31 sendbuff 0x7efb39c08e00 recvbuff 0x7efb39c2e000 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 32 sendbuff 0x7efb39c01000 recvbuff 0x7efb39c01000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 33 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 34 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 35 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datadistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+type 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 36 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 37 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 38 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 39 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3a sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3b sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3c sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3d sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3e sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 3f sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 40 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 41 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 42 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 43 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 44 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 45 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 46 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 47 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 48 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 49 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4a sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4b sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatypedistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+ 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4c sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4d sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4e sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 4f sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 50 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 51 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 52 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 53 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 54 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 55 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 56 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 57 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 58 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 59 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5a sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5b sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5c sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5d sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5e sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 5f sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 60 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 61 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 odistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+p 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 62 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 63 sendbuff 0x7efb39c02800 recvbuff 0x7efb39c27a00 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 64 sendbuff 0x7efb39da1200 recvbuff 0x7efb39da1200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 65 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 66 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 67 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 68 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 69 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6a sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6b sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6c sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6d sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6e sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 6f sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 70 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 71 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 72 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 73 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 74 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 75 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 76 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 77 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 78 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 79 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7a sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7b sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7c sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7d sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7e sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 7f sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 80 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 81 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 82 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 83 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 84 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 85 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 86 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 87 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 88 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 89 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8a sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8b sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8c sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8d sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 rodistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+ot 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8e sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 8f sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 90 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 91 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 92 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 93 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 94 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 95 sendbuff 0x7efb39da2a00 recvbuff 0x7efb39c00e00 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 96 sendbuff 0x7efb39da1200 recvbuff 0x7efb39da1200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 97 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 98 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 99 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9a sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9b sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9c sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9d sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9e sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 9f sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a0 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a1 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a2 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a3 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 rootdistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+ 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a4 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a5 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a6 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a7 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a8 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount a9 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount aa sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ab sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ac sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ad sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ae sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount af sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b0 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b1 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b2 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b3 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b4 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b5 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b6 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b7 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b8 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount b9 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 cdistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+omm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ba sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount bb sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount bc sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount bd sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount be sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount bf sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c0 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c1 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c2 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c3 sendbuff 0x7efb39da2e00 recvbuff 0x7efb39da2e00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c4 sendbuff 0x7efb39da1a00 recvbuff 0x7efb39da1a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c5 sendbuff 0x7efb39da2c00 recvbuff 0x7efb39da2c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c6 sendbuff 0x7efb39da2200 recvbuff 0x7efb39da2200 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount c7 sendbuff 0x7efb39da2a00 recvbuff 0x7efb39c00e00 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c8 sendbuff 0x7efb39c01000 recvbuff 0x7efb39c01000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount c9 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ca sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount cb sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount cc sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount cd sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ce sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount cf sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comdistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+m 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d0 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d1 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d2 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d3 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d4 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d5 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d6 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d7 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d8 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount d9 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount da sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount db sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount dc sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount dd sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount de sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount df sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e0 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e1 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e2 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e3 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e4 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e5 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0xdistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e6 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e7 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e8 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount e9 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ea sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount eb sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ec sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ed sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ee sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ef sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f0 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f1 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f2 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f3 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f4 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f5 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f6 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f7 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount f8 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount f9 sendbuff 0x7efb39c02800 recvbuff 0x7efb39cdf800 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount fa sendbuff 0x7efb39dbe400 recvbuff 0x7efb39dbe400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount fb sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount fc sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount fd sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount fe sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount ff sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 100 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 101 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 102 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 103 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 104 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 105 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 106 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 107 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 108 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 109 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10a sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10b sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10c sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10d sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10e sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 10f sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 110 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 111 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 rodistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+ot 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 112 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 113 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 114 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 115 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 116 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 117 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 118 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 119 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11a sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11b sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11c sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11d sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11e sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 11f sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 120 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 121 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 122 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 123 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 124 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 125 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 126 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 127 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 128 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 129 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 12a sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 12b sendbuff 0x7efb39dbfc00 recvbuff 0x7efb39c00e00 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 12c sendbuff 0x7efb39dbe400 recvbuff 0x7efb39dbe400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 12d sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 12e sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 12f sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 130 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 131 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 132 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 133 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 134 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 135 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 136 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 137 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 138 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 139 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13a sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13b sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13c sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13d sendbuff 0x7efb39dc0000 recvbuff 0x7efdistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+b39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13e sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 13f sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 140 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 141 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 142 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 143 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 144 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 145 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 146 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 147 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 148 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 149 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14a sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14b sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14c sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14d sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14e sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 14f sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 150 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 151 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 152 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 153 sendbuff 0x7efb39dbfdistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+e00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 154 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 155 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 156 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 157 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 158 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 159 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 15a sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 15b sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 15c sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 15d sendbuff 0x7efb39dbfc00 recvbuff 0x7efb39c00e00 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 15e sendbuff 0x7efb39c01000 recvbuff 0x7efb39c01000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 15f sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 160 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 161 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 162 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 163 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 164 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 165 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 166 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 167 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 168 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 169 distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16a sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16b sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16c sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16d sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16e sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 16f sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 170 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 171 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 172 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 173 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 174 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 175 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 176 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 177 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 178 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 179 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 17a sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 17b sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 17c sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 17d sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 17e sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllRedistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+duce: opCount 17f sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 180 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 181 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 182 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 183 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 184 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 185 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 186 sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 187 sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 188 sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 189 sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 18a sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 18b sendbuff 0x7efb39c02c00 recvbuff 0x7efb39c02c00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 18c sendbuff 0x7efb39c01800 recvbuff 0x7efb39c01800 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 18d sendbuff 0x7efb39c02a00 recvbuff 0x7efb39c02a00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 18e sendbuff 0x7efb39c02000 recvbuff 0x7efb39c02000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 18f sendbuff 0x7efb39c02800 recvbuff 0x7efb39cdf800 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 190 sendbuff 0x7efb39dbe400 recvbuff 0x7efb39dbe400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 191 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 192 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 193 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 194 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+ [0] NCCL INFO AllReduce: opCount 195 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 196 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 197 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 198 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 199 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19a sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19b sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19c sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19d sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19e sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 19f sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a0 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a1 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a2 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a3 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a4 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a5 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a6 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a7 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a8 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1a9 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1aa sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+workedistributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+distributed_c10d.py NCCL ALLREDUCE done
+r1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1ab sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1ac sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1ad sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1ae sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1af sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b0 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b1 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b2 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b3 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b4 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b5 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b6 sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b7 sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b8 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1b9 sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1ba sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1bb sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1bc sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1bd sendbuff 0x7efb39dc0000 recvbuff 0x7efb39dc0000 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1be sendbuff 0x7efb39dbec00 recvbuff 0x7efb39dbec00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1bf sendbuff 0x7efb39dbfe00 recvbuff 0x7efb39dbfe00 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllReduce: opCount 1c0 sendbuff 0x7efb39dbf400 recvbuff 0x7efb39dbf400 count 896 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] streadistributed_c10d.py NCCL ALLREDUCE done
+[2025-12-12 08:16:05] INFO:     127.0.0.1:41050 - "POST /generate HTTP/1.1" 200 OK
+m 0x11ced9d0
+worker1:1111382:1111382 [0] NCCL INFO AllGather: opCount 1c1 sendbuff 0x7efb39dbfc00 recvbuff 0x7efb39c00e00 count 75968 datatype 9 op 0 root 0 comm 0x37642a30 [nranks=2] stream 0x11ced9d0
