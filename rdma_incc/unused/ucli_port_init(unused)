@@ -1,0 +1,7 @@
+ucli
+port-add -/- 100G NONE
+an-set -/- 2
+port-enb -/-
+port-loopback 6/0 mac-near
+exit
+exit

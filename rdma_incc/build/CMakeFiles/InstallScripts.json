@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cjk/code/rdma-sglang/rdma_incc/build/cmake_install.cmake",
+		"/home/cjk/code/rdma-sglang/rdma_incc/build/common/cmake_install.cmake",
+		"/home/cjk/code/rdma-sglang/rdma_incc/build/server/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

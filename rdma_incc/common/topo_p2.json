@@ -1,0 +1,9 @@
+{
+    "port" : ["188", "172"],
+    "FEC": ["BF_FEC_TYP_NONE", "BF_FEC_TYP_NONE"],
+    "MAC" : ["0x1070fd190094", "0x1070fd2fd850"],
+    "IP" : ["0xc0a80301", "0xc0a80302"],
+    "switch_MAC" : "0x020000000000",
+    "switch_IP" : "0xc0a803fe",
+    "recir_port" : ["140", "156"]
+}

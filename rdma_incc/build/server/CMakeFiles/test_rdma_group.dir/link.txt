@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 CMakeFiles/test_rdma_group.dir/test_rdma_group.cpp.o -o test_rdma_group  -Wl,-rpath,/home/cjk/code/rdma-sglang/rdma_incc/build/server:/usr/local/cuda-11.8/targets/x86_64-linux/lib librdma_group.so /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so

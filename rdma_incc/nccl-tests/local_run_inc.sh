@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+INC_ENABLE=1 INC_BIND_IP=192.168.1.0/24 INC_CONTROLLER_ADDR=10.0.0.100:50051 ./local_run_raw.sh

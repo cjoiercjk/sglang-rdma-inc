@@ -1,0 +1,195 @@
+[1719397291.532110] [worker3:3210 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397290.846095] [worker4:2919 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397290.874992] [worker2:1984 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397306.826451] [worker2:1984 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397307.564923] [worker3:3210 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397306.833214] [worker4:2919 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+# nThread 1 nGpus 1 minBytes 8 maxBytes 2000000000 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  32897 on    worker1 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  1 Group  0 Pid   1984 on    worker2 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  2 Group  0 Pid   3210 on    worker3 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  3 Group  0 Pid   2919 on    worker4 device  0 [0x31] NVIDIA GeForce RTX 3090
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           8             2     float     sum      -1    22.08    0.00    0.00      8    21.99    0.00    0.00      8
+          16             4     float     sum      -1    22.19    0.00    0.00     16    22.02    0.00    0.00     16
+          32             8     float     sum      -1    22.73    0.00    0.00     32    22.11    0.00    0.00     32
+          64            16     float     sum      -1    23.03    0.00    0.00     64    22.87    0.00    0.00     64
+         128            32     float     sum      -1    23.04    0.01    0.01    128    23.13    0.01    0.01    128
+         256            64     float     sum      -1    22.17    0.01    0.02    256    23.17    0.01    0.02    256
+         512           128     float     sum      -1    23.36    0.02    0.03    512    23.82    0.02    0.03    512
+        1024           256     float     sum      -1    29.61    0.03    0.05   1024    28.56    0.04    0.05   1024
+        2048           512     float     sum      -1    45.74    0.04    0.07   2048    45.05    0.05    0.07   2048
+        4096          1024     float     sum      -1    80.68    0.05    0.08   4096    81.34    0.05    0.08   4096
+        8192          2048     float     sum      -1    81.47    0.10    0.15   8192    82.69    0.10    0.15   8192
+       16384          4096     float     sum      -1    84.20    0.19    0.29  16384    83.61    0.20    0.29  16384
+       32768          8192     float     sum      -1    86.06    0.38    0.57  32768    87.52    0.37    0.56  32768
+       65536         16384     float     sum      -1    90.24    0.73    1.09  65536    93.22    0.70    1.05  65536
+      131072         32768     float     sum      -1    101.4    1.29    1.94  131072    98.52    1.33    2.00  131072
+      262144         65536     float     sum      -1    89.35    2.93    4.40  262144    90.74    2.89    4.33  262144
+      524288        131072     float     sum      -1    115.4    4.54    6.81  524288    107.7    4.87    7.30  524288
+     1048576        262144     float     sum      -1    169.6    6.18    9.28  1.04858e+06    169.5    6.19    9.28  1.04858e+06
+     2097152        524288     float     sum      -1    320.9    6.53    9.80  2.09715e+06    318.4    6.59    9.88  2.09715e+06
+     4194304       1048576     float     sum      -1    627.9    6.68   10.02  4.1943e+06    627.0    6.69   10.03  4.1943e+06
+     8388608       2097152     float     sum      -1   1212.9    6.92   10.37  8.38861e+06   1204.5    6.96   10.45  8.38861e+06
+    16777216       4194304     float     sum      -1   2424.2    6.92   10.38  1.67772e+07   2430.9    6.90   10.35  1.67772e+07
+    33554432       8388608     float     sum      -1   4625.8    7.25   10.88  3.35544e+07   4761.6    7.05   10.57  3.35544e+07
+    67108864      16777216     float     sum      -1   9347.4    7.18   10.77  6.71089e+07   9039.1    7.42   11.14  6.71089e+07
+   134217728      33554432     float     sum      -1    18482    7.26   10.89  1.34218e+08    17961    7.47   11.21  1.34218e+08
+   268435456      67108864     float     sum      -1    36427    7.37   11.05  2.68435e+08    36736    7.31   10.96  2.68435e+08
+   536870912     134217728     float     sum      -1    72777    7.38   11.07  5.36871e+08    73631    7.29   10.94  5.36871e+08
+  1073741824     268435456     float     sum      -1   146712    7.32   10.98  1.07374e+09   145526    7.38   11.07  1.07374e+09
+# Out of bounds values : 224 FAILED
+# Avg bus bandwidth    : 4.69353 
+#
+
+[1719397326.394221] [worker4:2956 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397327.305427] [worker3:3247 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397328.995778] [worker2:2021 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397332.381111] [worker2:2021 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397333.119144] [worker3:3247 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397332.387413] [worker4:2956 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+# nThread 1 nGpus 1 minBytes 8 maxBytes 2000000000 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  32975 on    worker1 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  1 Group  0 Pid   2021 on    worker2 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  2 Group  0 Pid   3247 on    worker3 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  3 Group  0 Pid   2956 on    worker4 device  0 [0x31] NVIDIA GeForce RTX 3090
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           8             2     float     sum      -1    25.18    0.00    0.00      0    24.48    0.00    0.00      0
+          16             4     float     sum      -1    28.30    0.00    0.00      0    39.47    0.00    0.00      0
+          32             8     float     sum      -1    27.63    0.00    0.00      0    27.36    0.00    0.00      0
+          64            16     float     sum      -1    28.47    0.00    0.00      0    28.31    0.00    0.00      0
+         128            32     float     sum      -1    28.81    0.00    0.01      0    28.40    0.00    0.01      0
+         256            64     float     sum      -1    28.78    0.01    0.01      0    28.65    0.01    0.01      0
+         512           128     float     sum      -1    29.61    0.02    0.03      0    29.50    0.02    0.03      0
+        1024           256     float     sum      -1    30.90    0.03    0.05      0    30.67    0.03    0.05      0
+        2048           512     float     sum      -1    34.25    0.06    0.09      0    34.35    0.06    0.09      0
+        4096          1024     float     sum      -1    35.79    0.11    0.17      0    35.83    0.11    0.17      0
+        8192          2048     float     sum      -1    38.22    0.21    0.32      0    38.22    0.21    0.32      0
+       16384          4096     float     sum      -1    42.70    0.38    0.58      0    42.45    0.39    0.58      0
+       32768          8192     float     sum      -1    52.59    0.62    0.93      0    48.39    0.68    1.02      0
+       65536         16384     float     sum      -1    66.38    0.99    1.48      0    64.81    1.01    1.52      0
+      131072         32768     float     sum      -1    92.52    1.42    2.12      0    91.10    1.44    2.16      0
+      262144         65536     float     sum      -1    187.0    1.40    2.10      0    196.3    1.34    2.00      0
+      524288        131072     float     sum      -1    146.2    3.59    5.38      0    140.9    3.72    5.58      0
+     1048576        262144     float     sum      -1    218.8    4.79    7.19      0    217.3    4.83    7.24      0
+     2097152        524288     float     sum      -1    398.2    5.27    7.90      0    397.2    5.28    7.92      0
+     4194304       1048576     float     sum      -1    762.5    5.50    8.25      0    762.4    5.50    8.25      0
+     8388608       2097152     float     sum      -1   1549.0    5.42    8.12      0   1549.7    5.41    8.12      0
+    16777216       4194304     float     sum      -1   3372.3    4.98    7.46      0   3361.9    4.99    7.49      0
+    33554432       8388608     float     sum      -1   6702.4    5.01    7.51      0   6643.5    5.05    7.58      0
+    67108864      16777216     float     sum      -1    13114    5.12    7.68      0    13190    5.09    7.63      0
+   134217728      33554432     float     sum      -1    25994    5.16    7.75      0    26055    5.15    7.73      0
+   268435456      67108864     float     sum      -1    51685    5.19    7.79      0    51724    5.19    7.78      0
+   536870912     134217728     float     sum      -1   103145    5.21    7.81      0   103127    5.21    7.81      0
+  1073741824     268435456     float     sum      -1   206085    5.21    7.82      0   206055    5.21    7.82      0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 3.52599 
+#
+
+[1719397359.087777] [worker3:3284 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397358.433242] [worker4:2993 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397358.435234] [worker2:2058 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397362.266199] [worker2:2058 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397363.004173] [worker3:3284 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397362.272546] [worker4:2993 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+# nThread 1 nGpus 1 minBytes 8 maxBytes 2000000000 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  33031 on    worker1 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  1 Group  0 Pid   2058 on    worker2 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  2 Group  0 Pid   3284 on    worker3 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  3 Group  0 Pid   2993 on    worker4 device  0 [0x31] NVIDIA GeForce RTX 3090
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           8             2     float     sum      -1    25.91    0.00    0.00      0    26.31    0.00    0.00      0
+          16             4     float     sum      -1    26.69    0.00    0.00      0    27.46    0.00    0.00      0
+          32             8     float     sum      -1    26.88    0.00    0.00      0    27.32    0.00    0.00      0
+          64            16     float     sum      -1    27.97    0.00    0.00      0    27.73    0.00    0.00      0
+         128            32     float     sum      -1    28.26    0.00    0.01      0    28.32    0.00    0.01      0
+         256            64     float     sum      -1    28.95    0.01    0.01      0    29.18    0.01    0.01      0
+         512           128     float     sum      -1    30.38    0.02    0.03      0    29.93    0.02    0.03      0
+        1024           256     float     sum      -1    32.06    0.03    0.05      0    31.43    0.03    0.05      0
+        2048           512     float     sum      -1    35.21    0.06    0.09      0    35.03    0.06    0.09      0
+        4096          1024     float     sum      -1    36.93    0.11    0.17      0    36.52    0.11    0.17      0
+        8192          2048     float     sum      -1    39.27    0.21    0.31      0    39.30    0.21    0.31      0
+       16384          4096     float     sum      -1    43.91    0.37    0.56      0    43.80    0.37    0.56      0
+       32768          8192     float     sum      -1    53.18    0.62    0.92      0    49.61    0.66    0.99      0
+       65536         16384     float     sum      -1    68.17    0.96    1.44      0    68.73    0.95    1.43      0
+      131072         32768     float     sum      -1    99.12    1.32    1.98      0    100.6    1.30    1.95      0
+      262144         65536     float     sum      -1    170.5    1.54    2.31      0    188.8    1.39    2.08      0
+      524288        131072     float     sum      -1    126.6    4.14    6.21      0    128.7    4.07    6.11      0
+     1048576        262144     float     sum      -1    190.0    5.52    8.28      0    187.8    5.58    8.37      0
+     2097152        524288     float     sum      -1    335.4    6.25    9.38      0    334.2    6.28    9.41      0
+     4194304       1048576     float     sum      -1    624.6    6.71   10.07      0    620.5    6.76   10.14      0
+     8388608       2097152     float     sum      -1   1224.0    6.85   10.28      0   1224.7    6.85   10.27      0
+    16777216       4194304     float     sum      -1   2756.9    6.09    9.13      0   2743.5    6.12    9.17      0
+    33554432       8388608     float     sum      -1   5356.5    6.26    9.40      0   5444.9    6.16    9.24      0
+    67108864      16777216     float     sum      -1    10566    6.35    9.53      0    10572    6.35    9.52      0
+   134217728      33554432     float     sum      -1    20780    6.46    9.69      0    20943    6.41    9.61      0
+   268435456      67108864     float     sum      -1    41564    6.46    9.69      0    41501    6.47    9.70      0
+   536870912     134217728     float     sum      -1    82384    6.52    9.78      0    82837    6.48    9.72      0
+  1073741824     268435456     float     sum      -1   163903    6.55    9.83      0   164296    6.54    9.80      0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 4.24842 
+#
+
+[1719397381.964728] [worker4:3030 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397382.829751] [worker3:3321 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397384.469949] [worker2:2095 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397388.568934] [worker3:3321 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397387.831078] [worker2:2095 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+[1719397387.837414] [worker4:3030 :0]     ucp_context.c:1774 UCX  WARN  UCP version is incompatible, required: 1.15, actual: 1.12 (release 1)
+# nThread 1 nGpus 1 minBytes 8 maxBytes 2000000000 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  33087 on    worker1 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  1 Group  0 Pid   2095 on    worker2 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  2 Group  0 Pid   3321 on    worker3 device  0 [0x31] NVIDIA GeForce RTX 3090
+#  Rank  3 Group  0 Pid   3030 on    worker4 device  0 [0x31] NVIDIA GeForce RTX 3090
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           8             2     float     sum      -1    27.12    0.00    0.00      0    25.51    0.00    0.00      0
+          16             4     float     sum      -1    26.69    0.00    0.00      0    25.38    0.00    0.00      0
+          32             8     float     sum      -1    26.71    0.00    0.00      0    27.06    0.00    0.00      0
+          64            16     float     sum      -1    27.76    0.00    0.00      0    27.64    0.00    0.00      0
+         128            32     float     sum      -1    28.58    0.00    0.01      0    28.64    0.00    0.01      0
+         256            64     float     sum      -1    29.11    0.01    0.01      0    29.10    0.01    0.01      0
+         512           128     float     sum      -1    30.11    0.02    0.03      0    29.94    0.02    0.03      0
+        1024           256     float     sum      -1    32.01    0.03    0.05      0    31.80    0.03    0.05      0
+        2048           512     float     sum      -1    35.22    0.06    0.09      0    35.23    0.06    0.09      0
+        4096          1024     float     sum      -1    37.44    0.11    0.16      0    37.24    0.11    0.16      0
+        8192          2048     float     sum      -1    42.53    0.19    0.29      0    42.13    0.19    0.29      0
+       16384          4096     float     sum      -1    48.52    0.34    0.51      0    47.05    0.35    0.52      0
+       32768          8192     float     sum      -1    56.88    0.58    0.86      0    51.80    0.63    0.95      0
+       65536         16384     float     sum      -1    73.30    0.89    1.34      0    74.35    0.88    1.32      0
+      131072         32768     float     sum      -1    104.9    1.25    1.87      0    112.3    1.17    1.75      0
+      262144         65536     float     sum      -1    178.0    1.47    2.21      0    161.8    1.62    2.43      0
+      524288        131072     float     sum      -1    140.1    3.74    5.61      0    138.7    3.78    5.67      0
+     1048576        262144     float     sum      -1    197.6    5.31    7.96      0    198.2    5.29    7.93      0
+     2097152        524288     float     sum      -1    324.8    6.46    9.69      0    324.8    6.46    9.69      0
+     4194304       1048576     float     sum      -1    600.1    6.99   10.48      0    600.2    6.99   10.48      0
+     8388608       2097152     float     sum      -1   1183.6    7.09   10.63      0   1178.3    7.12   10.68      0
+    16777216       4194304     float     sum      -1   2793.0    6.01    9.01      0   2801.2    5.99    8.98      0
+    33554432       8388608     float     sum      -1   5515.5    6.08    9.13      0   5526.4    6.07    9.11      0
+    67108864      16777216     float     sum      -1    10633    6.31    9.47      0    10644    6.31    9.46      0
+   134217728      33554432     float     sum      -1    20848    6.44    9.66      0    20914    6.42    9.63      0
+   268435456      67108864     float     sum      -1    41485    6.47    9.71      0    40947    6.56    9.83      0
+   536870912     134217728     float     sum      -1    81837    6.56    9.84      0    81548    6.58    9.88      0
+  1073741824     268435456     float     sum      -1   162559    6.61    9.91      0   162786    6.60    9.89      0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 4.23878 
+#

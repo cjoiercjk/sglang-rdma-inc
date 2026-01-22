@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgrpc_cpp.a CMakeFiles/grpc_cpp.dir/allreduce.grpc.pb.cc.o CMakeFiles/grpc_cpp.dir/allreduce.pb.cc.o
+/usr/bin/ranlib libgrpc_cpp.a
